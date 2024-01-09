@@ -54,9 +54,6 @@ if ($nEmpleados != 0) {
             $casados++;
             $porcentaje = ($casados * 100) / $nEmpleados;
         }
-        elseif ($estadocivil != "c" || $estadocivil != "s") {
-            echo "Ingrese correctamente los datos.\n";
-        }
     }
     echo "Total de sueldos en bonos: $$totalBonos.\n";
     echo "Porcentaje de casados: %$porcentaje.\n";
